@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:  #f8f6f9;;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 75px;
+    box-shadow: 0px  0px 10px rgba(0, 0, 0, 0.337);;
+    margin-bottom: 60px ;
+
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    text-shadow: 1px 5px 5px rgba(0, 0, 0, 0.374);
+    transition: .3s;
+}
+
+.logo > h1 > span{
+    color: darkblue;
+}
+
+.logo:hover{
+    transform:translateY(-10px);
+}
+
+.navegação > .primaria{
+    font-weight: bolder;
+    color: darkblue ;
+}   
+.navegação > a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.83);
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: 1px  5px 5px rgba(0, 0, 0, 0.153);
+    transition: .4s;
+}
+
+.navegação > a:hover{
+    
+    color: darkblue;
+
+}
+
+.redes-social > a{
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    border-radius: 50%;
+    color: black;
+    margin-right: 10px;
+    padding: 5px;
+    box-shadow: 0px  0px 10px rgba(0, 0, 0, 0.337);;
+    transition: .4s;
+}
+.redes-social > a > i{
+    
+    color: darkblue;
+    font-size: 16px;
+}
+.redes-social > a:hover{
+    transform: scale(1.1);
+    transform: translateY(-5px);
+    background-color: darkblue ;
+    color: white;
+    box-shadow: 0px  0px 10px (darkblue);
+
+}
+.redes-social > a:hover > i{
+    color: white;
+}
+
+.ofertas{
+    margin-bottom:30px ;
+    text-align: center;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.conteiner{
+    margin-right: 30px;
+    transition: .4s;
+    
+}
+.produto{
+    
+}
+
+
+
+.imagem > img{
+    
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.nome-img{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+.conteiner:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/* Propaganda */
+.propaganda-1{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #7b27cc, #882fca,#b362ca,#c8b5e4 );
+    width: 100%;
+    height: 500px;
+    margin-bottom: 150px;
+    
+    
+}
+.propaganda-hadphone{
+    display:flex;
+    align-items: center;
+    
+    
+}
+.hadphones > i > img{
+    display: block;
+    width: 138px;
+    box-shadow: 0px  0px 10px rgba(0, 0, 0, 0.337);;
+    border-radius: 20%;
+    margin: 20px;
+    transition: .4s;
+    cursor: pointer;
+    
+}
+
+.hadphones i:hover > img {
+    transform: scale(1.1);
+}
+
+
+.caixa-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.hadphones-principal{
+    position: absolute;
+    
+    left: 17%;
+    top: 33%;
+    
+}
+
+.hadphones-principal > img{
+    width: 300px;
+    
+    
+
+}
+
+.modelo-principal{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.modelo{
+    position: absolute;
+    left: 63%;
+    top: -19.5%
+}
+.modelo > img{
+    width: 500px;
+}
+
+.oferta-off{
+    position: absolute;
+    top: 4%;
+    left: 16%;
+}
+.oferta-off > h1{
+    
+    color: white;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.oferta-off > h2{
+    font-size: 3.5em;
+    color: white;
+}
+
+.botão-ver-oferta {
+    position: absolute;
+    left: 40%;
+    top: 82%;
+}
+.botão-ver-oferta > button{
+    padding: 10px 20px;
+    background-color:#500f82 ;
+    text-decoration: none;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px  0px 10px rgba(0, 0, 0, 0.337);
+    cursor: pointer;
+    transition: .4s;
+    
+}
+
+.botão-ver-oferta > button:hover{
+    transform: translateY(-10px);
+}
+
+.caixa-2{
+    position: relative;
+}
+
+.novidades-h1{
+    position: absolute;
+    left: 6%;
+    top: -15%;
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.novidades-h1 > span{
+    color: #6E6E73;
+}
+
+ .aba-novidade{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+    
+ }   
+.novidade-1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px  0px 10px rgba(0, 0, 0, 0.449);
+    width: 335px;
+    height: 430px;
+    background-image: linear-gradient(to right,#17151afc 35%,#363636 ,#68646d  );
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+.novidade-1:hover{
+    transform: scale(1.1);
+}
+.novidade-2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px  0px 10px rgba(0, 0, 0, 0.449);
+    width: 335px;
+    height: 430px;
+    background-image: linear-gradient(to right,#17151afc 35%,#363636 ,#68646d  );
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.novidade-2:hover{
+    transform: scale(1.1);
+}
+
+.novidade-3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px  0px 10px rgba(0, 0, 0, 0.449);
+    width: 335px;
+    height: 430px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.novidade-3:hover{
+    transform: scale(1.1);
+}
+
+.novidade-notebook{
+    position: absolute;
+    top: 30%;
+}
+
+.novidade-notebook > img{
+    
+    width: 270px;
+    height: 285px;
+}
+
+.novidade-smartphone{
+    position: absolute;
+    top: 25%;
+}
+
+.novidade-smartphone > img{
+    width: 310px;
+    height: 325px;
+}
+.novidade-applewatch{
+    position: absolute;
+    top: 23%;
+}
+
+.novidade-applewatch > img{
+    width: 310px;
+    height: 325px;
+}
+
+.descrição{
+    font-weight: 500;
+    position: absolute;
+    top: 3%;  
+}
+
+.descrição > p{
+    margin-bottom: 10px;
+    color: #F5F5F7;
+    font-size: 14px;
+}
+
+.descrição > h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 21px;
+
+}
+.descrição > .preço{
+    font-size: 17px;
+}
+.descrição-2{
+    font-weight: 500;
+    position: absolute;
+    top: 3%; 
+}
+.descrição-2 > p{
+    margin-bottom: 10px;
+    color:#6E6E73;
+    font-size: 14px;
+}
+
+.descrição-2 > h1{
+    color: #1D1D1F;
+    margin-bottom: 10px;
+    font-size: 21px;
+
+}
+.descrição-2 > .preço{
+    font-size: 17px;
+}
+
+
+
